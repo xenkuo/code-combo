@@ -4,7 +4,7 @@ Cascadia 字体仓库在： [Cascadia Code](https://github.com/microsoft/cascadi
 
 Dream Han Sans CN 字体仓库在： [Dream Han CJK](https://github.com/Pal3love/dream-han-cjk)
 
-字体合并方法参考自知乎：[完美字体合并教程](https://zhuanlan.zhihu.com/p/617260598)
+字体合并方法参考自知乎：[完美字体合并教程](https://zhuanlan.zhihu.com/p/617260598)。离线版本在 `Tutorial` 目录下。
 
 ## Screenshots
 
@@ -12,11 +12,12 @@ Dream Han Sans CN 字体仓库在： [Dream Han CJK](https://github.com/Pal3love
 
 ## 使用方法
 
-1. Clone 本仓库或者单独下载 Code-Combo.ttf 文件
-2. 安装 Code-Combo.ttf 字体文件到系统
-3. 在应用程序内指定该字体
+1. Clone 本仓库： `git clone --depth 1 https://github.com/xenkuo/code-combo.git`
+2. 或者单独下载 Code-Combo.ttf 文件
+3. 安装 Code-Combo.ttf 字体文件到系统
+4. 在应用程序内指定该字体
 
-Intermediate 目录是合并字体时临时生成的文件，另外两个文件是源字体文件。
+Intermediate 目录是合并字体时临时生成的文件，另外两个文件是源字体文件。Code-Combo.sfd 是 Font Forge 的工程文件。
 
 可用于 notepad++、notepad next 或者其他不支持字体 fallback 机制的程序或场景。
 
